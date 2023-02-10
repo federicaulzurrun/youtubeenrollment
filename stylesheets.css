@@ -1,4 +1,105 @@
+*{
+    margin: 0px;
+}
 header{
-    background-color: antiquewhite;
+    background-color:white;
+    height: 56px;
+    min-width: 100px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.style-scope{
     display: grid;
+    grid-template-columns: 20% 55% 25%;
+}
+.nav-icon{
+    display: grid;
+    grid-template-columns: 10% 85%;
+    text-decoration: none;
+    max-width: 390px;
+}
+.fa-bars{
+    color: #282828;
+    font-size: 16px;
+    transform: translateY(18px);
+}
+a .fa-bars :hover{
+    box-shadow: 10px #282828;
+}
+.nav-icon h1 a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.nav-icon h1 a:hover{
+    color: #282828;
+}
+
+.fa-youtube{
+    color: #FF0000;
+    font-size: 20px;
+}
+.title{
+    color:#282828;
+}
+.nav-search{
+    display: grid;
+    grid-template-columns: 70% 10%;
+    transform: translateY(12px);
+}
+.search-form form .form-control{
+    border-radius: 26px;
+    width: 500px;
+}
+.input-group-append{
+    height: 38px;
+}
+.input-group-text{
+    border-radius: 26px;
+    transform: translateX(-30px);
+    size: 38px;
+}
+.nav-search div a{
+    text-decoration: none;
+    color: #282828;
+}
+.fa-microphone{
+    transform: translate(-70px, 5px);
+}
+.nav-right{
+    transform: translateX(110px);
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    transform: translate(60px ,15px);
+}
+.nav-right div a{
+    text-decoration: none;
+    color: #282828;
+    size: 100px;
+}
+.nav-right div a i{
+    font-size: 16px;
+}
+.page{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: auto;
+    min-width: 100px;
+    width: auto;
+}
+main{
+    background-color:bisque;
+    display: grid;
+    height: auto;
+    min-width: 100px;
+    width: auto;
+}
+aside{
+    background-color:aqua;
+    display: grid;
+    height: auto;
+    min-width: 100px;
+    width: auto;
 }
