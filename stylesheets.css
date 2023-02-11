@@ -104,6 +104,22 @@ main .video-rep h2{
     font-family: "YouTube Sans","Roboto",sans-serif;
     font-size: 2rem;
 }
+main .desc-vid{
+    display: grid;
+}
+main .desc-vid .card-desc{
+    display: grid;
+    grid-template-columns: 5% 70%;
+    height: 80px;
+    padding: 3px;
+    border: 0px;
+}
+main .desc-vid .card-desc .description h5{
+    font-size: 15px;
+}
+main .desc-vid .card-desc .description h6{
+    font-size: 13px;
+}
 aside{
     background-color:white;
     display: grid;
